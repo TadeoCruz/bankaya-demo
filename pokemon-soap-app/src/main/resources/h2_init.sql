@@ -1,0 +1,7 @@
+--Tabla de registro, incremento de clave primaria
+CREATE TABLE IF NOT EXISTS LOG_POKEMON (
+  ID INT AUTO_INCREMENT(1,1) PRIMARY KEY,
+  IP VARCHAR(20),
+  FECHA DATETIME,
+  METODO VARCHAR(255)
+);
